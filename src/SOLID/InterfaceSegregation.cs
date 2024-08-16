@@ -1,5 +1,7 @@
-// Principle: Interfaces should be segregated so nobody implementing our interface requires to implement functionality which doesn't exists./
+// Principle: Interfaces should be segregated so nobody implementing our interface requires to implement functionality which doesn't exists.
 // should be small and focused on a single responsibility
+// YANGI - You aren't gonna need it
+// Throw exception? write logs? what do you do if you don't need it?
 
 namespace DesignPatterns {
     public class Document {

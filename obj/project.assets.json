@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Design_Patterns\\Design_Patterns.csproj",
-      "projectName": "Design_Patterns",
-      "projectPath": "c:\\Design_Patterns\\Design_Patterns.csproj",
+      "projectUniqueName": "C:\\CSharp-learning\\CSharpLearnings.csproj",
+      "projectName": "CSharpLearnings",
+      "projectPath": "C:\\CSharp-learning\\CSharpLearnings.csproj",
       "packagesPath": "C:\\Users\\raronen\\.nuget\\packages\\",
-      "outputPath": "c:\\Design_Patterns\\obj\\",
+      "outputPath": "C:\\CSharp-learning\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -71,7 +71,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "C#: Design_Patterns Debug",
+            "name": "C#: CSharpLearnings Debug",
             "type": "dotnet",
             "request": "launch",
-            "projectPath": "${workspaceFolder}/Design_Patterns.csproj"
+            "projectPath": "${workspaceFolder}/CSharpLearnings.csproj"
         }
 
     ]
