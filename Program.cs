@@ -1,3 +1,5 @@
-﻿using DesignPatterns;
+﻿using CSharpNewFeatures;
 
-Builder.LifeWithBuilderPattern();
+var C8 = new C8();
+
+C8.run();
