@@ -1,5 +1,10 @@
 using System.Text;
 
+// A builder is a separate component for building an object
+// Can either give a builder a constructor or return it via a static function
+// To make builder fluent, return this
+// Different facets of an object can be built with different builders working in tandem via a base class
+
 namespace DesignPatterns {
 
     public class HTMLElement {
@@ -10,6 +15,8 @@ namespace DesignPatterns {
         public HTMLElement() {}
 
         public HTMLElement(string name, string text) {
+
+            Elements.ForEach(e => e.Name = name);
             Name = name ?? throw new ArgumentNullException(paramName: nameof(name));
             Text = text ?? throw new ArgumentNullException(paramName: nameof(text));
         }
