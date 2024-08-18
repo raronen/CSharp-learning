@@ -1,0 +1,18 @@
+1. Factory Method - Popular
+2. Abstracdt Factory - Relativly rare.
+
+Motivation:
+* Object creation logic becomes too convoluted.
+* Constructor is not descriptive.
+  Name mandated by name of containing type.
+  Cannot overload the same sets of arguments with different names.
+  Can turn into 'optional parameter hell'
+* Object creation (non-piecewise, unlike Builder) can be outsourced to
+      A seperate function (Factory Method)
+      That may exit in a separate class (Factory)
+      Can cre3ate hierarchy of factories with Abstract Factory
+
+
+Factory - A component responsible solely for the wholesale (not piecewise) creation of objects.
+
+Factory can also keep track of every item it creates, and then you can replacethem if you want.
