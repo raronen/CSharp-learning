@@ -1,0 +1,14 @@
+Electrial devices are different power (interface) requierements
+    Voltage (5V, 220V)
+    Socket/plug type (Europe, UK, USA)
+We cannot modify our gadgets to support every possible interface
+    some support possible (e.g 120/220V)
+Thus, we use a special device( an adapter) to give us the interface we require from interface we have
+
+Adapater - A construct which adapts an existing interface X to conform to the required interface Y.
+
+Summary:
+Implementing an Adapter is easy
+Determine the API you have and the API you Need
+Create a component which aggregates(has a refence to) the adapeter
+Inermediate the represenations can pile up: use caching and other optimizations.

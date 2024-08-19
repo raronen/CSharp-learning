@@ -1,0 +1,17 @@
+Motivation:
+Objects use other objects fields/properties/members through inheritance and composition.
+Composition lets us make compund objects
+    e.g a mathemtical expression composed of simple expression; or
+    a grouping of shapes that consists of several shapres.
+Composite design pattern is used to treat both single (scalar) and composite objects uniformly
+    e.g Foo and Collection<Foo> have common APIs
+
+Composite - A mechanism for treating individual (scalar) objects and compositions of objects in a uniform manner.
+
+
+Summary:
+Objects can use other objects via inheritance/composition
+Some composed and singular objects need similiar/idential behaviors
+Composite design pattern lets us treat both types of objects uniformly
+C# has special support for the enumeration concept.
+A single object can masquerade as a collection with yeild return htis.
