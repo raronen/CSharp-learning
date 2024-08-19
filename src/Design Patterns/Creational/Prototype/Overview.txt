@@ -6,3 +6,10 @@ Motivation:
    We make the cloning convenient (e.g via a factory)
 
 Prototype - A paritally or fully initialized object that you copy (clone) and make use of.
+
+
+Summary:
+To implement a prototype, partially construct can object and store it somewhere.
+Clone the prototype - 
+    implement your own deep copy functionality; or 
+    Serialize and deserialize

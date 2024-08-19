@@ -1,1 +1,1 @@
-﻿Prototype.CopyThroughSerialization.CopyThroughSerialization.Run();
+﻿Singleton.Ambient.Demo.Run();

@@ -1,0 +1,17 @@
+Motivation:
+For some components it only makes sense to have on in the system
+    Database repository
+    Object factory
+E,g the constructor call is expensive
+    We only do it once
+    We provide everyone with the same instance
+Want to prevent anoyone creating additonal copies
+Need to take care of lazy instantiation and thread safety
+
+Singelton - A component which is instantitated only once
+
+Summary:
+Making a 'safe' singleton is easy: construct a static Lazy<T> and return its Value.
+Singletons are difficult to test.
+Instead of directly using a singleton, consider depndening on an abstraction (e.g, an interface)
+Consider defining singleton lifetime in DI container
