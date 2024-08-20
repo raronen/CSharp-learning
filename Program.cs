@@ -1,1 +1,1 @@
-﻿Singleton.Ambient.Demo.Run();
+﻿Flyweight.TextFormatting.Demo.Run();

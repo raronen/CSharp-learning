@@ -1,0 +1,12 @@
+Motivation:
+Want to augment an object with additional functionality
+Do not want to rewrite or alter existing code (OCP)
+Want to keep new functionality seperate (SPP)
+Need to be able to interact with existing structres
+Two options:
+    inherit from required object if possible; some objects are sealed
+    Build a Decorator, which simply references the decorated object(s)
+
+
+Decorator - Facilitates the additional behaviors to individual objects without inheiring from them.
+

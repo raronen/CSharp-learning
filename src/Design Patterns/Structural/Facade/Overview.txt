@@ -1,0 +1,7 @@
+Motivation:
+Many systems working to provide flexibility, but...
+API consumers want it to 'just work'
+
+End user is not exposed to internals
+
+Facade - provides a simple, easy to understand over a large and sohpisicated chunk of code
