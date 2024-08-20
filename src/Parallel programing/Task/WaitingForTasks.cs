@@ -30,7 +30,7 @@ namespace CSharpLearnings.src.Parallel_programing.WaitingForTasks
             //Task.WaitAll(t); <-- 1st option
             t.Wait(token); // <--- 2nd option
 
-            Task.WaitAll(t, t2); // wait for both
+            Task.WaitAll(t, t2); // wait for both - "await Task.WhenAny(..)" Doesn't block the current thread
             Task.WaitAll(new[] { t, t2 }, 4000); // can also add timeout
             Task.WaitAll(new[] { t, t2 }, 4000, token); // throws Aggregate exception! Handled in ExceptionHandling.cs
 
