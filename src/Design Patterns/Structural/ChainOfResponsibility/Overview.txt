@@ -1,0 +1,12 @@
+Motivation:
+E.g: Employee, Manager, CRO
+E.g: event handling in DOM. button->control->body
+
+Chain of responsibility - A chain of components who all get a chance to process a command or a query, optionally,
+having a default processing implementation and an ability to terminate the process chain.
+
+Command Query Seperation:
+Command = asking for an action or change.
+Query = asking for information (without chaning something)
+CQS = having seperate means of sending commands and queries to:
+    e.g: direct field access.

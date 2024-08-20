@@ -1,0 +1,24 @@
+Motivation:
+You are calling foo.Bar()
+    This assumes that foo is in the same process as Bar()
+    What if you want to move Bar to remote, or seperate process
+    can we avoid chainging our code?
+    Proxy to rescue!
+    Proxy has the same interface, but provides different behavior.
+    This is called Communication proxy.
+Other types: logging, virtual, guarding.
+
+
+
+Proxy - A class that functions as an interface to a praticular resource. That resources mayb be remote, expensive to construct, or may require logging or some other added functionality.
+
+
+Difference between Facade pattern:
+The most obvious difference is that a Proxy has *the same interface* as the original object. 
+That is, clients don't even need to know whether they are acting on a proxy or directly on the real thing. 
+The intent of the Facade, in contrast, is to *change* the interface - generally to make it more coarse grained.
+
+Difference between Decorator:
+Proxy provides an identical interface; decorator provides an enhanced interface.
+Decorator typically aggregates (or has reference to) what it is decorating; proxy doesnt have to.
+Proxy might not even be working with a materialized object.
