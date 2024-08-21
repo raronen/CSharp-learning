@@ -29,13 +29,14 @@ namespace CSharpLearnings.src.Parallel_programing.Async_Await.AsyncLazyInit
             }));
 
         // Nito.AsynceX
+       /*
         private AsyncLazy<int> AutoIncValue3 =
             new AsyncLazy<int>(async () =>
             {
                 await Task.Delay(1000);
                 return value++;
             });
-
+       */
         public async void UseValue()
         {
             int value = await AutoIncValue.Value;

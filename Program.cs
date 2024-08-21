@@ -1,1 +1,1 @@
-﻿CSharpLearnings.src.Parallel_programing.ReaderWriterLock.Demo.Run();
+﻿CSharpLearnings.src.Design_Patterns.Structural.Command.CompositeCommandExample.Demo.Run();

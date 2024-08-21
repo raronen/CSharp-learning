@@ -1,0 +1,11 @@
+Motivation:
+Ordinary C# statements are perishable - 
+    Cannot undo a field/property assignment
+    Cannot directly serialize a sequence of actions (calls)
+Want an object that represents operation
+    e.g X should change its property Y to Z
+    X should do W()
+Users: GUI Commands, multi level undo/redo, macro recording and more!
+
+Command - An object which represents an instruction to performa a prticular action. 
+Contains all the information necessary for the action to be taken
