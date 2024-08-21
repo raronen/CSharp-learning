@@ -1,1 +1,1 @@
-﻿CSharpLearnings.src.Design_Patterns.Structural.Command.CompositeCommandExample.Demo.Run();
+﻿CSharpLearnings.src.Design_Patterns.Behavioral.Interpeter.HandmadeInterpeter.ParsingDemo.Run();

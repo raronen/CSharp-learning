@@ -1,0 +1,12 @@
+Motivation:
+Textual input needs to be processed
+    E.g turned into OOP structures (C#)
+Some examples
+    Programming language compilers, interpeters and IDEs
+    HTML, XML and similar
+    Numeric expressions (3 + 4/ 5)
+    Regular expressions
+Turning string into OOP based structures in an complicated process
+
+Interpeter - a component that processes structured text data. Does so by turning it into seperate lexical 
+tokens (lexing) and then interpreting sequences of said tokens (parsing)
