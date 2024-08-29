@@ -1,0 +1,9 @@
+Motivation:
+- Iteration is a core functionality of various data structures.
+- An iterator is a class tha tfacilitites the traversal
+	Keeps a reference to the current element
+	Knows how to move to a different element
+- Iterator is an implicit contrusctor
+	.NET builds a state machine around your yeild return statements
+
+Iterator - An object (or method) that facilitates the traversal of a data structure
